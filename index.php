@@ -60,43 +60,7 @@
 </head>
 <body>
 
-<header class="container-fluid bg1">
-    <div class="container">
-
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"> <span class="josh">JOSH</span> <span class="orange">WITKIN</span> </a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PROJECTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-
-    <div class="tag">
-        <h1>Games Design For The Future</h1>
-    </div>
-    </div> <!-- container -->
-    <?php wp_head(); ?> 
-</header>
+<?php get_header();?>
 
 <section class="container-fluid aboutbg text-center">
     <div class="container">
@@ -140,27 +104,4 @@
 
 </section>
 
-<footer class="container-fluid text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a class="navbar-brand" href="#"> <span class="josh">JOSH</span> <span class="orange">WITKIN</span> </a>
-            </div>
-            <div class="col-md-6">
-                <p>TERMS AND CONDITIONS</p>
-            </div>
-
-        </div> <!-- row -->
-    </div> <!-- Container -->
-
-</footer>
-
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php get_footer();?>   <!-- Tells WordPress to include footer.php   -->
