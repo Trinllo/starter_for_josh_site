@@ -62,7 +62,7 @@
 </head>
 <body>
 
-<header class="container-fluid bg1">
+<header class="container-fluid smallpage-bg">
   <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark">
       <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="orange">WITKIN</span></a>
@@ -78,8 +78,8 @@
         </ul>
       </div>
     </nav>
-    <div class="tag">
-      <h1>Games Design For The Future</h1>
+    <div class="smallpage-tag">
+      <h1 class="smallpage-title">Projects</h1>
     </div>
   </div>
 </header>
